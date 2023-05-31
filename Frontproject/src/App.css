@@ -1,0 +1,151 @@
+/* INTENTO CUTRE DE MANTENER EL FOOTER ABAJAO */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+
+}
+/* DARLE ALTURA AL LOGIN PARA QUE EL FOOTER SE QUEDE ABAJO */
+.login {
+    height: 70vh;
+}
+
+
+.card{
+  height: 100%; 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.btn_card {
+    position: relative;
+    bottom: 0;
+}
+
+h1 {
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#demo {
+    position: relative;
+}
+
+
+
+/* css del mapa */
+.map-container {
+  height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#area-mapa {
+    height: 40vh;
+    width: 60vw;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-dark {
+    color: white !important;
+}
+
+.guion {
+    background-color: white !important;
+}
+
+.carousel-caption {
+    color: white !important;
+}
+
+
+
+/* eliminar las flechas de los input numeric */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+/* mover el precio total a la derecha */
+.total {
+    font-size: 30px;
+}
+.total_precio {
+    font-size: 30px;
+}
+
+/* CSS metodo de pago */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
