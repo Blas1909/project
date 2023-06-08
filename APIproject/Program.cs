@@ -81,8 +81,8 @@ builder.Services.AddSwaggerGen();
  builder.Services.AddSqlite<BaseDeDatos>("Data Source=tiendadb.db");
 //final apartado base de datos
 //cambiar la linea de arriba por 
-// builder.Services.AddDbContext<BaseDeDatos>(options =>
-//         options.UseSqlServer(builder.Configuration.GetConnectionString("BaseDeDatos")));
+ builder.Services.AddDbContext<BaseDeDatos>(options =>
+         options.UseSqlServer(builder.Configuration.GetConnectionString("BaseDeDatos")));
 
 
 
